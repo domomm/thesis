@@ -22,13 +22,14 @@ def prepare_files(appname, commit_sha, on_deck=False):
         modified_files = output.splitlines()
         print("There are ", len(modified_files), " modified files")
     else:
-        print("Error in preparing files:", error)
-        return
+        raise Exception(error)
 
     # Revert modified files to the state of the commit and copy them to temporary directory
+    php_file_counter = 0
     for file_path in modified_files:
         # Revert the files
         if file_path.endswith(".php"):
+            php_file_counter += 1
             command = ["git", "checkout", commit_sha, "--", file_path]
             process = subprocess.Popen(command, cwd=repo_path)
             process.wait() #Wait until it's finished
@@ -38,6 +39,7 @@ def prepare_files(appname, commit_sha, on_deck=False):
             dst = os.path.join(temp_dir, file_path)
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copyfile(src, dst)
+    return php_file_counter
 
 def run_pdepend(app_temp_dir, on_deck=False):
     if on_deck:

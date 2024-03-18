@@ -14,34 +14,50 @@ def get_commit_metrics(appname, commit_sha, on_deck=False):
     repo_path = os.path.join(base_path, appname)
     temp_dir = os.path.join(repo_path, "temp")
     xml_path = os.path.join(base_path, "sum.xml")   
-    
+    php_file_counter = 0
     print("PREPARING FILES...")
+
     try:        
-        my_tools.prepare_files(appname, commit_sha, on_deck)
+        php_file_counter = my_tools.prepare_files(appname, commit_sha, on_deck)
     except Exception as e:
         print("Error in preparing files: ", str(e))
-        raise
+        raise e
 
     print("RUNNING PDEPEND...")
     try:
-        my_tools.run_pdepend(temp_dir, on_deck)
+        if php_file_counter > 0:
+            my_tools.run_pdepend(temp_dir, on_deck)
+        else:
+            print("There's no php files in commit ", commit_sha)
     except Exception as e:
         print("Error in running pdepend: ", str(e))
-        raise
+        raise e
 
     print("PARSING RESULT XML...")
     try:
-        result = my_tools.parse_xml(xml_path)
+        if php_file_counter > 0:
+            result = my_tools.parse_xml(xml_path)
+        else:
+            result = {
+                'average_loc': -1,
+                'average_ncloc': -1,
+                'average_dit': -1,
+                'average_nocc': -1,
+                'average_cbo': -1,
+                'average_wmc': -1,
+                'average_ccn': -1,
+                'average_hv': -1,
+            }
     except Exception as e:
         print("Error parsing sum.xml: ", str(e))
-        raise
+        raise e
 
     print("CLEANING UP...")
     try:
         my_tools.clear_temp_files(appname, on_deck)
     except Exception as e:
         print("Error cleaning up ", str(e))
-        raise
+        raise e
     
     end_time = time.time()  # Record the end time
     elapsed_time = end_time - start_time  # Calculate elapsed time
@@ -57,9 +73,9 @@ def test_get_commit_metrics(on_deck=False):
     else:
         base_path = 'C:\\MT_dataset_repos'
     
-    appname = "Pimcore"
-    sha_test = "5769658b609008c46b49ea72a5139769c9375af2"
-    sha_test_2 = "d91747f92aedf1accc6f64ad0977d8ed05cdcc1a" #pimcore
+    appname = "Microweber"
+    sha_test = "5da6475927a0cf359d8befd7e23e64b470fd9ad5"
+    sha_test_2 = "ca036e9f86bb5cdb3dac0930ec131e5f35e26c5f" #pimcore
 
     repo_path = os.path.join(base_path, appname)
     temp_dir = os.path.join(repo_path, "temp")
@@ -68,17 +84,20 @@ def test_get_commit_metrics(on_deck=False):
     # my_tools.run_pdepend(temp_dir, on_deck=on_deck)
     # print(my_tools.parse_xml(xml_path))
     # my_tools.clear_temp_files(appname, on_deck=on_deck)
-    print(get_commit_metrics(appname, sha_test_2, on_deck))
+    try:
+        print(get_commit_metrics(appname, sha_test, on_deck))
+    except Exception as e:
+        print(e)
 
 test_get_commit_metrics(on_deck=True)
 # start_time = time.time()  # Record the start time
-# with open("jsons/tabulated_commits_v4_nov.json", 'r') as file:
+# with open("jsons/tabulated_commits_v6_nov.json", 'r') as file:
 #     tabulated_commits = json.load(file)
-# test_apps = ["NextCloud", "Pimcore", "Microweber"]
+# # test_apps = ["NextCloud", "Pimcore", "Microweber"]
 # for commit in tabulated_commits:
-#     if commit["php_metrics_extracted"] == 0 and commit["appname"] in test_apps:
+#     if commit["php_metrics_extracted"] == 0:# and commit["appname"] in test_apps:
 #         try:
-#             result = get_commit_metrics(commit["appname"], commit["sha"])
+#             result = get_commit_metrics(commit["appname"], commit["sha"], on_deck=True)
 #             commit["average_loc"] = result["average_loc"]
 #             commit["average_ncloc"] = result["average_ncloc"]
 #             commit["average_dit"] = result["average_dit"]
@@ -91,7 +110,7 @@ test_get_commit_metrics(on_deck=True)
 #         except Exception as e:
 #             print("ERROR getting commit metrics: ", str(e))
 #             commit["php_metrics_extracted"] = -1
-# with open('jsons/tabulated_commits_v5_nov.json', 'w') as file:
+# with open('jsons/tabulated_commits_v6_nov.json', 'w') as file:
 #         json.dump(tabulated_commits, file, indent=4)
 # end_time = time.time()  # Record the end time
 # elapsed_time = end_time - start_time  # Calculate elapsed time

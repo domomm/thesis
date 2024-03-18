@@ -4,8 +4,12 @@ import xml.etree.ElementTree as ET
 import shutil
 import json
 
-def prepare_files(appname, commit_sha):
-    repo_path = os.path.join("C:\\", "MT_dataset_repos", appname)
+def prepare_files(appname, commit_sha, on_deck=False):
+    if on_deck:
+        base_path = '/home/deck/Documents/masterGT/MT_dataset_repos'
+    else:
+        base_path = 'C:\\MT_dataset_repos'
+    repo_path = os.path.join(base_path, appname)
     temp_dir = os.path.join(repo_path, "temp")
     os.makedirs(temp_dir, exist_ok=True)
     
@@ -34,14 +38,16 @@ def prepare_files(appname, commit_sha):
             dst = os.path.join(temp_dir, file_path)
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copyfile(src, dst)
-            print(dst)
 
-def run_pdepend(app_temp_dir):
-    pdepend_path = os.path.join("C:\\", "MT_dataset_repos", "pdepend.phar")
-    dataset_repo_path = os.path.join("C:\\", "MT_dataset_repos")
+def run_pdepend(app_temp_dir, on_deck=False):
+    if on_deck:
+        base_path = '/home/deck/Documents/masterGT/MT_dataset_repos'
+    else:
+        base_path = 'C:\\MT_dataset_repos'
+    
+    pdepend_path = os.path.join(base_path, "pdepend.phar")    
     command = ['php', pdepend_path, '--summary-xml=sum.xml', app_temp_dir]
-
-    process = subprocess.Popen(command, cwd=dataset_repo_path)
+    process = subprocess.Popen(command, cwd=base_path)
     process.wait()  # Wait until it's finished
 
     print("PDEPEND completed successfully.")
@@ -133,10 +139,14 @@ def parse_xml(xml_file):
         commits_metrics['average_hv'] = -1
     return commits_metrics
 
-def clear_temp_files(appname):
+def clear_temp_files(appname, on_deck=False):
     # Define the path to the temporary directory
-    temp_dir = os.path.join("C:\\", "MT_dataset_repos", appname, "temp")
-    sum_dir = os.path.join("C:\\", "MT_dataset_repos", "sum.xml")
+    if on_deck:
+        base_path = '/home/deck/Documents/masterGT/MT_dataset_repos'
+    else:
+        base_path = 'C:\\MT_dataset_repos'
+    temp_dir = os.path.join(base_path, appname, "temp")
+    sum_dir = os.path.join(base_path, "sum.xml")
 
     if os.path.exists(temp_dir):
         shutil.rmtree(temp_dir)

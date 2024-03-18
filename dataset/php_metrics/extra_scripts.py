@@ -130,4 +130,4 @@ def count_commits(tabulated_commits, appnames = []):
 # count_extraction(tabulated_commits_v6, -1)
 # print("In total there are ", len(tabulated_commits_v6), " commits")
         
-count_commits(tabulated_commits_v6, ["Microweber"])
+count_commits(tabulated_commits_v6)

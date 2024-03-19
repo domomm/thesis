@@ -4,8 +4,12 @@ import xml.etree.ElementTree as ET
 import shutil
 import json
 
-def prepare_files(appname, commit_sha):
-    repo_path = os.path.join("C:\\", "MT_dataset_repos", appname)
+def prepare_files(appname, commit_sha, on_deck=False):
+    if on_deck:
+        base_path = '/home/deck/Documents/masterGT/MT_dataset_repos'
+    else:
+        base_path = 'C:\\MT_dataset_repos'
+    repo_path = os.path.join(base_path, appname)
     temp_dir = os.path.join(repo_path, "temp")
     os.makedirs(temp_dir, exist_ok=True)
     
@@ -18,13 +22,14 @@ def prepare_files(appname, commit_sha):
         modified_files = output.splitlines()
         print("There are ", len(modified_files), " modified files")
     else:
-        print("Error in preparing files:", error)
-        return
+        raise Exception(error)
 
     # Revert modified files to the state of the commit and copy them to temporary directory
+    php_file_counter = 0
     for file_path in modified_files:
         # Revert the files
         if file_path.endswith(".php"):
+            php_file_counter += 1
             command = ["git", "checkout", commit_sha, "--", file_path]
             process = subprocess.Popen(command, cwd=repo_path)
             process.wait() #Wait until it's finished
@@ -34,14 +39,17 @@ def prepare_files(appname, commit_sha):
             dst = os.path.join(temp_dir, file_path)
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copyfile(src, dst)
-            print(dst)
+    return php_file_counter
 
-def run_pdepend(app_temp_dir):
-    pdepend_path = os.path.join("C:\\", "MT_dataset_repos", "pdepend.phar")
-    dataset_repo_path = os.path.join("C:\\", "MT_dataset_repos")
+def run_pdepend(app_temp_dir, on_deck=False):
+    if on_deck:
+        base_path = '/home/deck/Documents/masterGT/MT_dataset_repos'
+    else:
+        base_path = 'C:\\MT_dataset_repos'
+    
+    pdepend_path = os.path.join(base_path, "pdepend.phar")    
     command = ['php', pdepend_path, '--summary-xml=sum.xml', app_temp_dir]
-
-    process = subprocess.Popen(command, cwd=dataset_repo_path)
+    process = subprocess.Popen(command, cwd=base_path)
     process.wait()  # Wait until it's finished
 
     print("PDEPEND completed successfully.")
@@ -133,10 +141,14 @@ def parse_xml(xml_file):
         commits_metrics['average_hv'] = -1
     return commits_metrics
 
-def clear_temp_files(appname):
+def clear_temp_files(appname, on_deck=False):
     # Define the path to the temporary directory
-    temp_dir = os.path.join("C:\\", "MT_dataset_repos", appname, "temp")
-    sum_dir = os.path.join("C:\\", "MT_dataset_repos", "sum.xml")
+    if on_deck:
+        base_path = '/home/deck/Documents/masterGT/MT_dataset_repos'
+    else:
+        base_path = 'C:\\MT_dataset_repos'
+    temp_dir = os.path.join(base_path, appname, "temp")
+    sum_dir = os.path.join(base_path, "sum.xml")
 
     if os.path.exists(temp_dir):
         shutil.rmtree(temp_dir)
@@ -170,4 +182,11 @@ def dict_to_json_file(input_dict, file_path):
         print(f"JSON data saved to '{file_path}' successfully.")
     except Exception as e:
         print(f"Error: {e}")
+
+def clear_all_temp_files():
+    with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/phpAppsWithGithubLinks.json", 'r') as file:
+        php_ghlink = json.load(file)
+    
+    for entry in php_ghlink:
+        clear_temp_files(entry["appname"], on_deck=True)
 

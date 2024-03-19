@@ -110,14 +110,14 @@ def test_get_commit_metrics(on_deck=False):
 def main_run():
     my_tools.clear_all_temp_files()
     start_time = time.time()  # Record the start time
-    with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/tabulated_commits_v7_nov.json", 'r') as file:
+    with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/joris_commits_filtered_v3.json", 'r') as file:
         tabulated_commits = json.load(file)
-    test_apps = ["NextCloud", "Tuleap", "Piwigo", "Shopware"]
+    # test_apps = ["NextCloud", "Tuleap", "Piwigo", "Shopware"]
     count = 0
     for commit in tabulated_commits:
         php_metrics_extracted = commit["php_metrics_extracted"]
         
-        if ((php_metrics_extracted == 0) or (php_metrics_extracted == 1 and commit["average_loc"] == -1)):
+        if php_metrics_extracted == 0:
         #if commit["appname"] in test_apps:    
             try:
                 result = get_commit_metrics(commit["appname"], commit["sha"], on_deck=True)
@@ -134,8 +134,11 @@ def main_run():
                 print("ERROR getting commit metrics: ", str(e))
                 commit["php_metrics_extracted"] = -1
             count += 1
+        if count%200 == 0: #This is to save as we go along so we dont lose progress, it saves every 200 commit metric extraction
+            with open('/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/joris_commits_filtered_v4.json', 'w') as file:
+                json.dump(tabulated_commits, file, indent=4)
 
-    with open('/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/tabulated_commits_v8_nov.json', 'w') as file:
+    with open('/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/joris_commits_filtered_v4.json', 'w') as file:
             json.dump(tabulated_commits, file, indent=4)
     end_time = time.time()  # Record the end time
     elapsed_time = end_time - start_time  # Calculate elapsed time

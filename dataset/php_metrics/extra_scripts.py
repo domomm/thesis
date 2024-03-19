@@ -14,6 +14,12 @@ with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons
 with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/tabulated_commits_v8_nov.json", 'r') as file:
     tabulated_commits_v8 = json.load(file)
 
+with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/application_selection/cve_transformation_process/before_cvv_cves.json", 'r') as file:
+    before_vcc_cves = json.load(file)
+
+with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/joris_commits_filtered_v4.json", 'r') as file:
+    joris_commits_filtered_v4 = json.load(file)
+
 def search_appname(gh_link, appname_ghlink_data):
     for entry in appname_ghlink_data:
         if entry["github_href"] == gh_link:
@@ -119,9 +125,22 @@ def count_commits(tabulated_commits, appnames = []):
     else:
         print("The amount of vulnerable commits are ", count_vulnerable)
         print("The amount of non-vulnerable commits are ", count_non_vulnerable) 
+
+count_no_php = 0
+count_err = 0
+for com in tabulated_commits_v8:
+    if "average_loc" in com and com["average_loc"] == -1:
+        count_no_php += 1
+    if com["php_metrics_extracted"] == -1:
+        count_err += 1
+
+print(len(tabulated_commits_v8))
+print(count_no_php)
+print(count_err)
+
 # add_appname_delete_ov(tabulated_commits_v1)
-count_extraction(tabulated_commits_v8, 1)
-count_extraction(tabulated_commits_v8, -1)
+# count_extraction(tabulated_commits_v8, 1)
+# count_extraction(tabulated_commits_v8, -1)
 # appnames = ["Tuleap", "Piwigo", "Shopware"]
 # count_extraction_apps(tabulated_commits_v7, appnames, 1)
 
@@ -131,3 +150,4 @@ count_extraction(tabulated_commits_v8, -1)
 # print("In total there are ", len(tabulated_commits_v6), " commits")
         
 #count_commits(tabulated_commits_v7)
+        

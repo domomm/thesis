@@ -1,2 +1,3 @@
 research/dataset_building/
 research/tool*testings/
+dataset/**/__pycache__

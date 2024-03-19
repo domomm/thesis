@@ -8,11 +8,11 @@ There are some functions that calculate things related to the execution: Count h
 
 Turns out there were duplicates in tabulated commits version 1-5. So there's a function here that removes em.
 """
-with open("jsons/phpAppsWithGithubLinks.json", 'r') as file:
+with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/phpAppsWithGithubLinks.json", 'r') as file:
     appname_ghlink_data = json.load(file)
 
-with open("jsons/tabulated_commits_v6_nov.json", 'r') as file:
-    tabulated_commits_v6 = json.load(file)
+with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/tabulated_commits_v8_nov.json", 'r') as file:
+    tabulated_commits_v8 = json.load(file)
 
 def search_appname(gh_link, appname_ghlink_data):
     for entry in appname_ghlink_data:
@@ -120,14 +120,14 @@ def count_commits(tabulated_commits, appnames = []):
         print("The amount of vulnerable commits are ", count_vulnerable)
         print("The amount of non-vulnerable commits are ", count_non_vulnerable) 
 # add_appname_delete_ov(tabulated_commits_v1)
-# count_extraction(tabulated_commits_v5, 1)
-# count_extraction(tabulated_commits_v5, -1)
-# appnames = ["Kanboard", "OwnCloud", "Friendica"]
-# count_extraction_apps(tabulated_commits_v4, appnames, -1)
+count_extraction(tabulated_commits_v8, 1)
+count_extraction(tabulated_commits_v8, -1)
+# appnames = ["Tuleap", "Piwigo", "Shopware"]
+# count_extraction_apps(tabulated_commits_v7, appnames, 1)
 
 # remove_duplicates(tabulated_commits_v6, 'jsons/tabulated_commits_v6_nov.json')
 # count_extraction(tabulated_commits_v6, 1)
 # count_extraction(tabulated_commits_v6, -1)
 # print("In total there are ", len(tabulated_commits_v6), " commits")
         
-count_commits(tabulated_commits_v6)
+#count_commits(tabulated_commits_v7)

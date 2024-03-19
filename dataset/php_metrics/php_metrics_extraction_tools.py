@@ -183,3 +183,10 @@ def dict_to_json_file(input_dict, file_path):
     except Exception as e:
         print(f"Error: {e}")
 
+def clear_all_temp_files():
+    with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/phpAppsWithGithubLinks.json", 'r') as file:
+        php_ghlink = json.load(file)
+    
+    for entry in php_ghlink:
+        clear_temp_files(entry["appname"], on_deck=True)
+

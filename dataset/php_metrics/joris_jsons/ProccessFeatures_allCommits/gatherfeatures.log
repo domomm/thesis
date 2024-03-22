@@ -1,0 +1,863 @@
+2024-03-18 13:31:34,631 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_BookStackApp_BookStack.json
+2024-03-18 13:31:34,635 - WARNING - repoUrl: https://github.com/BookStackApp/BookStack
+2024-03-18 13:31:44,506 - WARNING - Cloned repository to: BookStackApp/BookStack
+2024-03-18 13:32:04,485 - WARNING - Final dataframe saved to JSON file: BookStack_final_df.json
+2024-03-18 13:32:05,025 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_boxbilling_boxbilling.json
+2024-03-18 13:32:05,029 - WARNING - repoUrl: https://github.com/boxbilling/boxbilling
+2024-03-18 13:32:12,115 - WARNING - Cloned repository to: boxbilling/boxbilling
+2024-03-18 13:32:21,812 - WARNING - Final dataframe saved to JSON file: boxbilling_final_df.json
+2024-03-18 13:32:22,364 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_concrete5_concrete5.json
+2024-03-18 13:32:22,368 - WARNING - repoUrl: https://github.com/concrete5/concrete5
+2024-03-18 13:32:22,662 - INFO - Following Github server redirection from /repos/concrete5/concrete5 to /repositories/19040482
+2024-03-18 13:32:23,283 - INFO - Following Github server redirection from /repos/concrete5/concrete5 to /repositories/19040482
+2024-03-18 13:32:46,220 - WARNING - Cloned repository to: concrete5/concrete5
+2024-03-18 13:32:59,133 - ERROR - Username is None
+2024-03-18 13:33:00,273 - ERROR - Username is None
+2024-03-18 13:34:01,984 - WARNING - Final dataframe saved to JSON file: concrete5_final_df.json
+2024-03-18 13:34:03,029 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_Enalean_tuleap.json
+2024-03-18 13:34:03,034 - WARNING - repoUrl: https://github.com/Enalean/tuleap
+2024-03-18 13:34:34,802 - WARNING - Cloned repository to: Enalean/tuleap
+2024-03-18 13:37:44,156 - ERROR - Username is None
+2024-03-18 13:37:45,915 - ERROR - Username is None
+2024-03-18 13:37:46,809 - ERROR - Username is None
+2024-03-18 13:37:47,087 - ERROR - Username is None
+2024-03-18 13:37:47,358 - ERROR - Username is None
+2024-03-18 13:37:48,229 - ERROR - Username is None
+2024-03-18 13:37:49,478 - ERROR - Username is None
+2024-03-18 13:37:50,376 - ERROR - Username is None
+2024-03-18 13:37:52,492 - ERROR - Username is None
+2024-03-18 13:37:52,773 - ERROR - Username is None
+2024-03-18 13:37:55,409 - ERROR - Username is None
+2024-03-18 13:37:55,676 - ERROR - Username is None
+2024-03-18 13:37:56,549 - ERROR - Username is None
+2024-03-18 13:37:57,134 - ERROR - Username is None
+2024-03-18 13:37:58,302 - ERROR - Username is None
+2024-03-18 13:38:05,253 - ERROR - Username is None
+2024-03-18 13:38:06,458 - ERROR - Username is None
+2024-03-18 13:38:08,229 - ERROR - Username is None
+2024-03-18 13:38:10,635 - ERROR - Username is None
+2024-03-18 13:38:16,718 - ERROR - Username is None
+2024-03-18 13:38:18,539 - ERROR - Username is None
+2024-03-18 13:38:19,746 - ERROR - Username is None
+2024-03-18 13:38:20,623 - ERROR - Username is None
+2024-03-18 13:38:20,891 - ERROR - Username is None
+2024-03-18 13:38:21,775 - ERROR - Username is None
+2024-03-18 13:38:22,371 - ERROR - Username is None
+2024-03-18 13:38:23,523 - ERROR - Username is None
+2024-03-18 13:38:23,787 - ERROR - Username is None
+2024-03-18 13:38:24,052 - ERROR - Username is None
+2024-03-18 13:38:24,325 - ERROR - Username is None
+2024-03-18 13:38:24,900 - ERROR - Username is None
+2024-03-18 13:38:25,776 - ERROR - Username is None
+2024-03-18 13:38:27,468 - ERROR - Username is None
+2024-03-18 13:38:29,604 - ERROR - Username is None
+2024-03-18 13:38:30,463 - ERROR - Username is None
+2024-03-18 13:38:32,509 - ERROR - Username is None
+2024-03-18 13:38:33,683 - ERROR - Username is None
+2024-03-18 13:38:35,452 - ERROR - Username is None
+2024-03-18 13:38:36,287 - ERROR - Username is None
+2024-03-18 13:38:38,922 - ERROR - Username is None
+2024-03-18 13:38:39,888 - ERROR - Username is None
+2024-03-18 13:38:40,159 - ERROR - Username is None
+2024-03-18 13:38:40,713 - ERROR - Username is None
+2024-03-18 13:38:44,808 - ERROR - Username is None
+2024-03-18 13:38:45,378 - ERROR - Username is None
+2024-03-18 13:38:45,657 - ERROR - Username is None
+2024-03-18 13:38:49,199 - ERROR - Username is None
+2024-03-18 13:38:51,282 - ERROR - Username is None
+2024-03-18 13:38:51,867 - ERROR - Username is None
+2024-03-18 13:38:53,047 - ERROR - Username is None
+2024-03-18 13:38:53,329 - ERROR - Username is None
+2024-03-18 13:38:53,605 - ERROR - Username is None
+2024-03-18 13:38:55,100 - ERROR - Username is None
+2024-03-18 13:38:56,286 - ERROR - Username is None
+2024-03-18 13:38:57,737 - ERROR - Username is None
+2024-03-18 13:38:58,595 - ERROR - Username is None
+2024-03-18 13:38:58,871 - ERROR - Username is None
+2024-03-18 13:39:00,363 - ERROR - Username is None
+2024-03-18 13:39:01,580 - ERROR - Username is None
+2024-03-18 13:39:02,206 - ERROR - Username is None
+2024-03-18 13:39:02,490 - ERROR - Username is None
+2024-03-18 13:39:03,143 - ERROR - Username is None
+2024-03-18 13:39:08,262 - ERROR - Username is None
+2024-03-18 13:39:09,414 - ERROR - Username is None
+2024-03-18 13:39:10,894 - ERROR - Username is None
+2024-03-18 13:39:11,457 - ERROR - Username is None
+2024-03-18 13:39:12,619 - ERROR - Username is None
+2024-03-18 13:39:12,917 - ERROR - Username is None
+2024-03-18 13:39:13,478 - ERROR - Username is None
+2024-03-18 13:39:14,360 - ERROR - Username is None
+2024-03-18 13:39:14,912 - ERROR - Username is None
+2024-03-18 13:39:16,706 - ERROR - Username is None
+2024-03-18 13:39:17,546 - ERROR - Username is None
+2024-03-18 13:39:18,737 - ERROR - Username is None
+2024-03-18 13:39:19,014 - ERROR - Username is None
+2024-03-18 13:39:19,595 - ERROR - Username is None
+2024-03-18 13:39:19,871 - ERROR - Username is None
+2024-03-18 13:39:21,029 - ERROR - Username is None
+2024-03-18 13:39:21,320 - ERROR - Username is None
+2024-03-18 13:39:21,615 - ERROR - Username is None
+2024-03-18 13:39:23,164 - ERROR - Username is None
+2024-03-18 13:39:24,337 - ERROR - Username is None
+2024-03-18 13:39:26,444 - ERROR - Username is None
+2024-03-18 13:39:26,722 - ERROR - Username is None
+2024-03-18 13:39:28,593 - ERROR - Username is None
+2024-03-18 13:39:28,872 - ERROR - Username is None
+2024-03-18 13:39:29,174 - ERROR - Username is None
+2024-03-18 13:39:30,326 - ERROR - Username is None
+2024-03-18 13:39:32,382 - ERROR - Username is None
+2024-03-18 13:39:32,664 - ERROR - Username is None
+2024-03-18 13:39:33,244 - ERROR - Username is None
+2024-03-18 13:39:33,819 - ERROR - Username is None
+2024-03-18 13:39:34,106 - ERROR - Username is None
+2024-03-18 13:39:35,316 - ERROR - Username is None
+2024-03-18 13:39:36,853 - ERROR - Username is None
+2024-03-18 13:39:37,392 - ERROR - Username is None
+2024-03-18 13:39:37,681 - ERROR - Username is None
+2024-03-18 13:39:39,135 - ERROR - Username is None
+2024-03-18 13:39:41,501 - ERROR - Username is None
+2024-03-18 13:39:42,067 - ERROR - Username is None
+2024-03-18 13:39:42,952 - ERROR - Username is None
+2024-03-18 13:39:43,226 - ERROR - Username is None
+2024-03-18 13:39:43,509 - ERROR - Username is None
+2024-03-18 13:39:44,364 - ERROR - Username is None
+2024-03-18 13:39:46,751 - ERROR - Username is None
+2024-03-18 13:39:47,024 - ERROR - Username is None
+2024-03-18 13:39:48,221 - ERROR - Username is None
+2024-03-18 13:39:49,157 - ERROR - Username is None
+2024-03-18 13:39:49,671 - ERROR - Username is None
+2024-03-18 13:39:50,254 - ERROR - Username is None
+2024-03-18 13:39:50,830 - ERROR - Username is None
+2024-03-18 13:39:52,623 - ERROR - Username is None
+2024-03-18 13:39:53,246 - ERROR - Username is None
+2024-03-18 13:39:54,507 - ERROR - Username is None
+2024-03-18 13:59:35,906 - ERROR - Timeout occurred while processing commit 6b04dbf9a8c3d5c141c42e672e6b874bda9749b3
+2024-03-18 14:15:19,518 - ERROR - Timeout occurred while processing commit 1f47a5c8d3caaeeee3f096ee7a11165593499040
+2024-03-18 14:20:27,352 - ERROR - Timeout occurred while processing commit d0830760f56b5aa33dca2449a4245c1a027d2128
+2024-03-18 14:26:43,629 - ERROR - Timeout occurred while processing commit ba49628f2efcd0d1ffe296cc0c82c939b36c92d9
+2024-03-18 14:33:38,133 - ERROR - Timeout occurred while processing commit edc3bcb52732f75fce37311b54199ab3c114878c
+2024-03-18 14:43:04,963 - ERROR - Timeout occurred while processing commit c39d84b8fce92763c323ffac859f5f51c30f9f6b
+2024-03-18 15:05:46,690 - ERROR - Timeout occurred while processing commit 7a8544134dd6c97c441758ad100907f3871d8e87
+2024-03-18 15:22:15,260 - WARNING - Final dataframe saved to JSON file: tuleap_final_df.json
+2024-03-18 15:22:17,240 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_espocrm_espocrm.json
+2024-03-18 15:22:17,245 - WARNING - repoUrl: https://github.com/espocrm/espocrm
+2024-03-18 15:22:23,710 - WARNING - Cloned repository to: espocrm/espocrm
+2024-03-18 15:23:25,691 - ERROR - Username is None
+2024-03-18 15:23:35,818 - ERROR - Username is None
+2024-03-18 15:27:16,061 - WARNING - Final dataframe saved to JSON file: espocrm_final_df.json
+2024-03-18 15:27:16,900 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_filegator_filegator.json
+2024-03-18 15:27:16,904 - WARNING - repoUrl: https://github.com/filegator/filegator
+2024-03-18 15:27:19,298 - WARNING - Cloned repository to: filegator/filegator
+2024-03-18 15:27:25,719 - WARNING - Final dataframe saved to JSON file: filegator_final_df.json
+2024-03-18 15:27:26,211 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_flarum_framework.json
+2024-03-18 15:27:26,215 - WARNING - repoUrl: https://github.com/flarum/framework
+2024-03-18 15:27:35,173 - WARNING - Cloned repository to: flarum/framework
+2024-03-18 15:28:00,013 - WARNING - Final dataframe saved to JSON file: framework_final_df.json
+2024-03-18 15:28:00,626 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_friendica_friendica.json
+2024-03-18 15:28:00,630 - WARNING - repoUrl: https://github.com/friendica/friendica
+2024-03-18 15:28:13,995 - WARNING - Cloned repository to: friendica/friendica
+2024-03-18 15:28:28,374 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_hestiacp_hestiacp.json
+2024-03-18 15:28:28,378 - WARNING - repoUrl: https://github.com/hestiacp/hestiacp
+2024-03-18 15:28:33,866 - WARNING - Cloned repository to: hestiacp/hestiacp
+2024-03-18 15:30:47,198 - ERROR - Username is None
+2024-03-18 15:30:47,740 - ERROR - Username is None
+2024-03-18 15:30:48,015 - ERROR - Username is None
+2024-03-18 15:30:48,264 - ERROR - Username is None
+2024-03-18 15:30:50,254 - ERROR - Username is None
+2024-03-18 15:30:51,077 - ERROR - Username is None
+2024-03-18 15:30:51,351 - ERROR - Username is None
+2024-03-18 15:30:51,616 - ERROR - Username is None
+2024-03-18 15:30:52,440 - ERROR - Username is None
+2024-03-18 15:30:52,987 - ERROR - Username is None
+2024-03-18 15:30:53,840 - ERROR - Username is None
+2024-03-18 15:30:54,665 - ERROR - Username is None
+2024-03-18 15:30:55,208 - ERROR - Username is None
+2024-03-18 15:30:55,463 - ERROR - Username is None
+2024-03-18 15:30:55,982 - ERROR - Username is None
+2024-03-18 15:31:02,257 - ERROR - Username is None
+2024-03-18 15:31:03,682 - ERROR - Username is None
+2024-03-18 15:31:03,967 - ERROR - Username is None
+2024-03-18 15:31:04,538 - ERROR - Username is None
+2024-03-18 15:31:06,832 - ERROR - Username is None
+2024-03-18 15:31:07,414 - ERROR - Username is None
+2024-03-18 15:31:07,971 - ERROR - Username is None
+2024-03-18 15:31:11,492 - ERROR - Username is None
+2024-03-18 15:31:11,764 - ERROR - Username is None
+2024-03-18 15:31:12,904 - ERROR - Username is None
+2024-03-18 15:31:13,177 - ERROR - Username is None
+2024-03-18 15:31:15,707 - ERROR - Username is None
+2024-03-18 15:31:15,982 - ERROR - Username is None
+2024-03-18 15:31:16,826 - ERROR - Username is None
+2024-03-18 15:31:22,548 - ERROR - Username is None
+2024-03-18 15:31:22,808 - ERROR - Username is None
+2024-03-18 15:31:23,069 - ERROR - Username is None
+2024-03-18 15:31:24,169 - ERROR - Username is None
+2024-03-18 15:31:25,015 - ERROR - Username is None
+2024-03-18 15:31:25,275 - ERROR - Username is None
+2024-03-18 15:31:27,266 - ERROR - Username is None
+2024-03-18 15:31:28,103 - ERROR - Username is None
+2024-03-18 15:31:28,363 - ERROR - Username is None
+2024-03-18 15:31:30,037 - ERROR - Username is None
+2024-03-18 15:31:30,310 - ERROR - Username is None
+2024-03-18 15:31:31,108 - ERROR - Username is None
+2024-03-18 15:31:32,538 - ERROR - Username is None
+2024-03-18 15:31:36,277 - ERROR - Username is None
+2024-03-18 15:31:36,681 - ERROR - Username is None
+2024-03-18 15:31:38,115 - ERROR - Username is None
+2024-03-18 15:31:38,668 - ERROR - Username is None
+2024-03-18 15:31:39,833 - ERROR - Username is None
+2024-03-18 15:31:40,398 - ERROR - Username is None
+2024-03-18 15:31:42,986 - ERROR - Username is None
+2024-03-18 15:31:44,056 - ERROR - Username is None
+2024-03-18 15:31:45,193 - ERROR - Username is None
+2024-03-18 15:31:45,457 - ERROR - Username is None
+2024-03-18 15:31:52,122 - ERROR - Username is None
+2024-03-18 15:31:53,244 - ERROR - Username is None
+2024-03-18 15:31:55,597 - ERROR - Username is None
+2024-03-18 15:31:56,143 - ERROR - Username is None
+2024-03-18 15:31:56,417 - ERROR - Username is None
+2024-03-18 15:31:59,316 - ERROR - Username is None
+2024-03-18 15:31:59,595 - ERROR - Username is None
+2024-03-18 15:31:59,852 - ERROR - Username is None
+2024-03-18 15:32:01,922 - ERROR - Username is None
+2024-03-18 15:32:03,077 - ERROR - Username is None
+2024-03-18 15:32:04,781 - ERROR - Username is None
+2024-03-18 15:32:05,333 - ERROR - Username is None
+2024-03-18 15:32:05,608 - ERROR - Username is None
+2024-03-18 15:32:07,347 - ERROR - Username is None
+2024-03-18 15:32:08,930 - ERROR - Username is None
+2024-03-18 15:32:09,201 - ERROR - Username is None
+2024-03-18 15:32:09,463 - ERROR - Username is None
+2024-03-18 15:32:14,639 - ERROR - Username is None
+2024-03-18 15:32:15,225 - ERROR - Username is None
+2024-03-18 15:32:16,371 - ERROR - Username is None
+2024-03-18 15:32:16,925 - ERROR - Username is None
+2024-03-18 15:32:18,662 - ERROR - Username is None
+2024-03-18 15:38:50,072 - WARNING - Final dataframe saved to JSON file: hestiacp_final_df.json
+2024-03-18 15:38:50,688 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_humhub_humhub.json
+2024-03-18 15:38:50,692 - WARNING - repoUrl: https://github.com/humhub/humhub
+2024-03-18 15:38:59,483 - WARNING - Cloned repository to: humhub/humhub
+2024-03-18 15:39:31,105 - ERROR - Username is None
+2024-03-18 15:39:31,954 - ERROR - Username is None
+2024-03-18 15:39:34,283 - ERROR - Username is None
+2024-03-18 15:46:32,233 - WARNING - Final dataframe saved to JSON file: humhub_final_df.json
+2024-03-18 15:46:33,015 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_invoiceninja_invoiceninja.json
+2024-03-18 15:46:33,020 - WARNING - repoUrl: https://github.com/invoiceninja/invoiceninja
+2024-03-18 15:49:51,747 - WARNING - Cloned repository to: invoiceninja/invoiceninja
+2024-03-18 16:02:25,170 - WARNING - Final dataframe saved to JSON file: invoiceninja_final_df.json
+2024-03-18 16:02:26,350 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_kanboard_kanboard.json
+2024-03-18 16:02:26,354 - WARNING - repoUrl: https://github.com/kanboard/kanboard
+2024-03-18 16:02:32,659 - WARNING - Cloned repository to: kanboard/kanboard
+2024-03-18 16:03:55,524 - ERROR - Username is None
+2024-03-18 16:04:00,581 - ERROR - Username is None
+2024-03-18 16:04:00,849 - ERROR - Username is None
+2024-03-18 16:04:10,626 - ERROR - Username is None
+2024-03-18 16:04:10,894 - ERROR - Username is None
+2024-03-18 16:04:22,035 - ERROR - Username is None
+2024-03-18 16:04:26,966 - ERROR - Username is None
+2024-03-18 16:04:27,562 - ERROR - Username is None
+2024-03-18 16:10:11,626 - WARNING - Final dataframe saved to JSON file: kanboard_final_df.json
+2024-03-18 16:10:12,216 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_kevinpapst_kimai2.json
+2024-03-18 16:10:12,221 - WARNING - repoUrl: https://github.com/kevinpapst/kimai2
+2024-03-18 16:10:12,524 - INFO - Following Github server redirection from /repos/kevinpapst/kimai2 to /repositories/71485542
+2024-03-18 16:10:13,196 - INFO - Following Github server redirection from /repos/kevinpapst/kimai2 to /repositories/71485542
+2024-03-18 16:10:19,592 - WARNING - Cloned repository to: kevinpapst/kimai2
+2024-03-18 16:12:26,156 - ERROR - Username is None
+2024-03-18 16:12:36,406 - ERROR - Username is None
+2024-03-18 16:18:35,570 - WARNING - Final dataframe saved to JSON file: kimai2_final_df.json
+2024-03-18 16:18:36,111 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_krayin_laravel-crm.json
+2024-03-18 16:18:36,115 - WARNING - repoUrl: https://github.com/krayin/laravel-crm
+2024-03-18 16:18:38,564 - WARNING - Cloned repository to: krayin/laravel-crm
+2024-03-18 16:18:44,135 - ERROR - Username is None
+2024-03-18 16:19:12,979 - WARNING - Final dataframe saved to JSON file: laravel-crm_final_df.json
+2024-03-18 16:19:13,506 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_magento_magento2.json
+2024-03-18 16:19:13,510 - WARNING - repoUrl: https://github.com/magento/magento2
+2024-03-18 16:19:57,150 - WARNING - Cloned repository to: magento/magento2
+2024-03-18 16:21:12,245 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_microweber_microweber.json
+2024-03-18 16:21:12,250 - WARNING - repoUrl: https://github.com/microweber/microweber
+2024-03-18 16:21:59,398 - WARNING - Cloned repository to: microweber/microweber
+2024-03-18 16:26:15,841 - ERROR - Username is None
+2024-03-18 16:26:20,185 - ERROR - Username is None
+2024-03-18 16:26:30,486 - ERROR - Username is None
+2024-03-18 16:26:31,046 - ERROR - Username is None
+2024-03-18 16:26:33,004 - ERROR - Username is None
+2024-03-18 16:26:34,440 - ERROR - Username is None
+2024-03-18 16:26:35,987 - ERROR - Username is None
+2024-03-18 16:26:37,728 - ERROR - Username is None
+2024-03-18 16:26:53,524 - ERROR - Username is None
+2024-03-18 16:26:58,149 - ERROR - Username is None
+2024-03-18 16:26:58,733 - ERROR - Username is None
+2024-03-18 16:27:32,259 - ERROR - Username is None
+2024-03-18 16:27:37,739 - ERROR - Username is None
+2024-03-18 16:27:42,378 - ERROR - Username is None
+2024-03-18 16:27:43,224 - ERROR - Username is None
+2024-03-18 16:27:44,934 - ERROR - Username is None
+2024-03-18 16:27:48,132 - ERROR - Username is None
+2024-03-18 16:27:58,558 - ERROR - Username is None
+2024-03-18 16:28:01,109 - ERROR - Username is None
+2024-03-18 16:28:01,388 - ERROR - Username is None
+2024-03-18 16:28:03,125 - ERROR - Username is None
+2024-03-18 16:28:04,822 - ERROR - Username is None
+2024-03-18 16:28:05,695 - ERROR - Username is None
+2024-03-18 16:28:09,742 - ERROR - Username is None
+2024-03-18 16:28:10,302 - ERROR - Username is None
+2024-03-18 16:28:18,444 - ERROR - Username is None
+2024-03-18 16:28:21,923 - ERROR - Username is None
+2024-03-18 16:28:23,314 - ERROR - Username is None
+2024-03-18 16:28:25,695 - ERROR - Username is None
+2024-03-18 16:28:26,843 - ERROR - Username is None
+2024-03-18 16:28:30,903 - ERROR - Username is None
+2024-03-18 16:28:31,565 - ERROR - Username is None
+2024-03-18 16:28:31,835 - ERROR - Username is None
+2024-03-18 16:28:33,313 - ERROR - Username is None
+2024-03-18 16:28:35,029 - ERROR - Username is None
+2024-03-18 16:28:36,736 - ERROR - Username is None
+2024-03-18 16:28:37,891 - ERROR - Username is None
+2024-03-18 16:28:38,752 - ERROR - Username is None
+2024-03-18 16:28:42,460 - ERROR - Username is None
+2024-03-18 16:28:48,686 - ERROR - Username is None
+2024-03-18 16:28:51,546 - ERROR - Username is None
+2024-03-18 16:28:51,818 - ERROR - Username is None
+2024-03-18 16:28:53,563 - ERROR - Username is None
+2024-03-18 16:29:02,357 - ERROR - Username is None
+2024-03-18 16:29:03,777 - ERROR - Username is None
+2024-03-18 16:29:04,341 - ERROR - Username is None
+2024-03-18 16:29:05,483 - ERROR - Username is None
+2024-03-18 16:29:09,531 - ERROR - Username is None
+2024-03-18 16:29:15,380 - ERROR - Username is None
+2024-03-18 16:29:17,647 - ERROR - Username is None
+2024-03-18 16:29:20,499 - ERROR - Username is None
+2024-03-18 16:29:22,487 - ERROR - Username is None
+2024-03-18 16:29:23,602 - ERROR - Username is None
+2024-03-18 16:29:27,322 - ERROR - Username is None
+2024-03-18 16:50:32,177 - WARNING - Final dataframe saved to JSON file: microweber_final_df.json
+2024-03-18 16:50:33,271 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_moodle_moodle.json
+2024-03-18 16:50:33,276 - WARNING - repoUrl: https://github.com/moodle/moodle
+2024-03-18 16:51:15,999 - WARNING - Cloned repository to: moodle/moodle
+2024-03-18 16:51:27,540 - ERROR - Username is None
+2024-03-18 16:51:28,202 - ERROR - Username is None
+2024-03-18 16:52:44,878 - WARNING - Final dataframe saved to JSON file: moodle_final_df.json
+2024-03-18 16:52:47,196 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_mybb_mybb.json
+2024-03-18 16:52:47,200 - WARNING - repoUrl: https://github.com/mybb/mybb
+2024-03-18 16:52:52,872 - WARNING - Cloned repository to: mybb/mybb
+2024-03-18 16:53:25,291 - ERROR - Username is None
+2024-03-18 16:53:27,027 - ERROR - Username is None
+2024-03-18 16:53:27,569 - ERROR - Username is None
+2024-03-18 16:53:27,852 - ERROR - Username is None
+2024-03-18 16:53:28,689 - ERROR - Username is None
+2024-03-18 16:53:30,731 - ERROR - Username is None
+2024-03-18 16:53:31,003 - ERROR - Username is None
+2024-03-18 16:53:31,554 - ERROR - Username is None
+2024-03-18 16:53:33,280 - ERROR - Username is None
+2024-03-18 16:53:34,125 - ERROR - Username is None
+2024-03-18 16:53:34,396 - ERROR - Username is None
+2024-03-18 16:53:36,700 - ERROR - Username is None
+2024-03-18 16:53:37,255 - ERROR - Username is None
+2024-03-18 16:53:38,664 - ERROR - Username is None
+2024-03-18 16:53:39,465 - ERROR - Username is None
+2024-03-18 16:53:39,726 - ERROR - Username is None
+2024-03-18 16:53:40,866 - ERROR - Username is None
+2024-03-18 16:53:44,543 - ERROR - Username is None
+2024-03-18 16:53:44,817 - ERROR - Username is None
+2024-03-18 16:53:47,412 - ERROR - Username is None
+2024-03-18 16:55:08,478 - WARNING - Final dataframe saved to JSON file: mybb_final_df.json
+2024-03-18 16:55:09,016 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_nextcloud_server.json
+2024-03-18 16:55:09,021 - WARNING - repoUrl: https://github.com/nextcloud/server
+2024-03-18 16:59:39,695 - WARNING - Cloned repository to: nextcloud/server
+2024-03-18 17:03:28,850 - ERROR - Username is None
+2024-03-18 17:03:32,979 - ERROR - Username is None
+2024-03-18 17:03:43,012 - ERROR - Username is None
+2024-03-18 17:03:54,910 - ERROR - Username is None
+2024-03-18 17:04:36,544 - ERROR - Username is None
+2024-03-18 17:04:44,299 - ERROR - Username is None
+2024-03-18 17:04:44,577 - ERROR - Username is None
+2024-03-18 17:04:46,966 - ERROR - Username is None
+2024-03-18 17:04:48,132 - ERROR - Username is None
+2024-03-18 17:04:50,892 - ERROR - Username is None
+2024-03-18 17:04:51,471 - ERROR - Username is None
+2024-03-18 17:04:52,613 - ERROR - Username is None
+2024-03-18 17:04:54,049 - ERROR - Username is None
+2024-03-18 17:04:56,133 - ERROR - Username is None
+2024-03-18 17:04:57,247 - ERROR - Username is None
+2024-03-18 17:04:59,582 - ERROR - Username is None
+2024-03-18 17:05:00,134 - ERROR - Username is None
+2024-03-18 17:05:03,683 - ERROR - Username is None
+2024-03-18 17:05:04,821 - ERROR - Username is None
+2024-03-18 17:05:05,103 - ERROR - Username is None
+2024-03-18 17:05:06,566 - ERROR - Username is None
+2024-03-18 17:05:06,838 - ERROR - Username is None
+2024-03-18 17:05:08,577 - ERROR - Username is None
+2024-03-18 17:05:11,182 - ERROR - Username is None
+2024-03-18 17:05:14,211 - ERROR - Username is None
+2024-03-18 17:05:14,468 - ERROR - Username is None
+2024-03-18 17:05:19,705 - ERROR - Username is None
+2024-03-18 17:05:23,128 - ERROR - Username is None
+2024-03-18 17:05:25,149 - ERROR - Username is None
+2024-03-18 17:05:27,771 - ERROR - Username is None
+2024-03-18 17:05:30,092 - ERROR - Username is None
+2024-03-18 17:05:31,820 - ERROR - Username is None
+2024-03-18 17:05:33,593 - ERROR - Username is None
+2024-03-18 17:05:36,266 - ERROR - Username is None
+2024-03-18 17:05:36,523 - ERROR - Username is None
+2024-03-18 17:05:38,003 - ERROR - Username is None
+2024-03-18 17:05:38,285 - ERROR - Username is None
+2024-03-18 17:05:40,107 - ERROR - Username is None
+2024-03-18 17:05:41,601 - ERROR - Username is None
+2024-03-18 17:05:43,962 - ERROR - Username is None
+2024-03-18 17:05:44,537 - ERROR - Username is None
+2024-03-18 17:05:48,159 - ERROR - Username is None
+2024-03-18 17:05:51,060 - ERROR - Username is None
+2024-03-18 17:05:51,891 - ERROR - Username is None
+2024-03-18 17:05:54,400 - ERROR - Username is None
+2024-03-18 17:27:23,913 - ERROR - Timeout occurred while processing commit d664a9b37b18cf834902c5201e5bcd154deaeeed
+2024-03-18 18:04:14,074 - ERROR - Timeout occurred while processing commit 01bb3efe238cecf5075a5030719d3b0a726dfe51
+2024-03-18 18:08:05,216 - WARNING - Final dataframe saved to JSON file: server_final_df.json
+2024-03-18 18:08:07,138 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_opencart_opencart.json
+2024-03-18 18:08:07,142 - WARNING - repoUrl: https://github.com/opencart/opencart
+2024-03-18 18:08:22,751 - WARNING - Cloned repository to: opencart/opencart
+2024-03-18 18:08:34,032 - ERROR - Username is None
+2024-03-18 18:08:36,027 - ERROR - Username is None
+2024-03-18 18:10:51,830 - WARNING - Final dataframe saved to JSON file: opencart_final_df.json
+2024-03-18 18:10:52,686 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_opnsense_core.json
+2024-03-18 18:10:52,691 - WARNING - repoUrl: https://github.com/opnsense/core
+2024-03-18 18:10:59,770 - WARNING - Cloned repository to: opnsense/core
+2024-03-18 18:12:55,788 - WARNING - Final dataframe saved to JSON file: core_final_df.json
+2024-03-18 18:12:56,446 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_orangehrm_orangehrm.json
+2024-03-18 18:12:56,450 - WARNING - repoUrl: https://github.com/orangehrm/orangehrm
+2024-03-18 18:13:02,195 - WARNING - Cloned repository to: orangehrm/orangehrm
+2024-03-18 18:13:05,027 - ERROR - Username is None
+2024-03-18 18:13:05,289 - ERROR - Username is None
+2024-03-18 18:13:12,492 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_owncloud_core.json
+2024-03-18 18:13:12,496 - WARNING - repoUrl: https://github.com/owncloud/core
+2024-03-18 18:13:45,050 - WARNING - Cloned repository to: owncloud/core
+2024-03-18 18:14:50,289 - ERROR - Username is None
+2024-03-18 18:14:50,842 - ERROR - Username is None
+2024-03-18 18:14:52,972 - ERROR - Username is None
+2024-03-18 18:14:53,581 - ERROR - Username is None
+2024-03-18 18:14:53,837 - ERROR - Username is None
+2024-03-18 18:14:55,243 - ERROR - Username is None
+2024-03-18 18:14:55,795 - ERROR - Username is None
+2024-03-18 18:14:56,386 - ERROR - Username is None
+2024-03-18 18:14:58,535 - ERROR - Username is None
+2024-03-18 18:14:58,787 - ERROR - Username is None
+2024-03-18 18:14:59,058 - ERROR - Username is None
+2024-03-18 18:14:59,334 - ERROR - Username is None
+2024-03-18 18:15:00,743 - ERROR - Username is None
+2024-03-18 18:15:03,882 - ERROR - Username is None
+2024-03-18 18:15:04,150 - ERROR - Username is None
+2024-03-18 18:15:05,579 - ERROR - Username is None
+2024-03-18 18:15:05,842 - ERROR - Username is None
+2024-03-18 18:15:06,100 - ERROR - Username is None
+2024-03-18 18:15:06,360 - ERROR - Username is None
+2024-03-18 18:15:06,624 - ERROR - Username is None
+2024-03-18 18:15:06,946 - ERROR - Username is None
+2024-03-18 18:15:07,174 - ERROR - Username is None
+2024-03-18 18:15:07,434 - ERROR - Username is None
+2024-03-18 18:15:07,698 - ERROR - Username is None
+2024-03-18 18:15:07,978 - ERROR - Username is None
+2024-03-18 18:15:09,415 - ERROR - Username is None
+2024-03-18 18:15:09,693 - ERROR - Username is None
+2024-03-18 18:15:09,955 - ERROR - Username is None
+2024-03-18 18:15:10,214 - ERROR - Username is None
+2024-03-18 18:15:10,477 - ERROR - Username is None
+2024-03-18 18:15:10,748 - ERROR - Username is None
+2024-03-18 18:15:11,001 - ERROR - Username is None
+2024-03-18 18:15:11,265 - ERROR - Username is None
+2024-03-18 18:15:11,535 - ERROR - Username is None
+2024-03-18 18:15:11,806 - ERROR - Username is None
+2024-03-18 18:15:12,377 - ERROR - Username is None
+2024-03-18 18:15:13,562 - ERROR - Username is None
+2024-03-18 18:15:14,116 - ERROR - Username is None
+2024-03-18 18:15:14,952 - ERROR - Username is None
+2024-03-18 18:15:16,102 - ERROR - Username is None
+2024-03-18 18:15:17,812 - ERROR - Username is None
+2024-03-18 18:15:18,352 - ERROR - Username is None
+2024-03-18 18:15:18,608 - ERROR - Username is None
+2024-03-18 18:15:18,876 - ERROR - Username is None
+2024-03-18 18:15:19,142 - ERROR - Username is None
+2024-03-18 18:15:19,993 - ERROR - Username is None
+2024-03-18 18:15:20,818 - ERROR - Username is None
+2024-03-18 18:15:22,844 - ERROR - Username is None
+2024-03-18 18:15:23,695 - ERROR - Username is None
+2024-03-18 18:15:25,120 - ERROR - Username is None
+2024-03-18 18:15:25,390 - ERROR - Username is None
+2024-03-18 18:15:26,525 - ERROR - Username is None
+2024-03-18 18:15:26,793 - ERROR - Username is None
+2024-03-18 18:15:27,345 - ERROR - Username is None
+2024-03-18 18:15:27,614 - ERROR - Username is None
+2024-03-18 18:15:27,876 - ERROR - Username is None
+2024-03-18 18:15:28,699 - ERROR - Username is None
+2024-03-18 18:15:28,963 - ERROR - Username is None
+2024-03-18 18:15:29,240 - ERROR - Username is None
+2024-03-18 18:15:30,662 - ERROR - Username is None
+2024-03-18 18:15:34,058 - ERROR - Username is None
+2024-03-18 18:19:09,990 - WARNING - Final dataframe saved to JSON file: core_final_df.json
+2024-03-18 18:19:11,107 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_pfsense_pfsense.json
+2024-03-18 18:19:11,111 - WARNING - repoUrl: https://github.com/pfsense/pfsense
+2024-03-18 18:19:35,579 - WARNING - Cloned repository to: pfsense/pfsense
+2024-03-18 18:20:12,660 - ERROR - Username is None
+2024-03-18 18:20:13,221 - ERROR - Username is None
+2024-03-18 18:20:13,485 - ERROR - Username is None
+2024-03-18 18:20:16,917 - ERROR - Username is None
+2024-03-18 18:20:17,941 - ERROR - Username is None
+2024-03-18 18:20:18,221 - ERROR - Username is None
+2024-03-18 18:20:20,593 - ERROR - Username is None
+2024-03-18 18:20:20,867 - ERROR - Username is None
+2024-03-18 18:20:22,300 - ERROR - Username is None
+2024-03-18 18:20:23,154 - ERROR - Username is None
+2024-03-18 18:20:23,719 - ERROR - Username is None
+2024-03-18 18:20:23,989 - ERROR - Username is None
+2024-03-18 18:20:24,823 - ERROR - Username is None
+2024-03-18 18:20:25,079 - ERROR - Username is None
+2024-03-18 18:20:25,336 - ERROR - Username is None
+2024-03-18 18:20:25,605 - ERROR - Username is None
+2024-03-18 18:20:25,870 - ERROR - Username is None
+2024-03-18 18:20:26,148 - ERROR - Username is None
+2024-03-18 18:20:26,720 - ERROR - Username is None
+2024-03-18 18:20:27,589 - ERROR - Username is None
+2024-03-18 18:20:27,853 - ERROR - Username is None
+2024-03-18 18:20:28,143 - ERROR - Username is None
+2024-03-18 18:20:28,847 - ERROR - Username is None
+2024-03-18 18:20:29,127 - ERROR - Username is None
+2024-03-18 18:20:29,675 - ERROR - Username is None
+2024-03-18 18:20:30,225 - ERROR - Username is None
+2024-03-18 18:20:30,498 - ERROR - Username is None
+2024-03-18 18:20:31,352 - ERROR - Username is None
+2024-03-18 18:20:32,138 - ERROR - Username is None
+2024-03-18 18:20:32,406 - ERROR - Username is None
+2024-03-18 18:20:32,670 - ERROR - Username is None
+2024-03-18 18:20:33,239 - ERROR - Username is None
+2024-03-18 18:20:34,364 - ERROR - Username is None
+2024-03-18 18:20:34,626 - ERROR - Username is None
+2024-03-18 18:20:34,899 - ERROR - Username is None
+2024-03-18 18:20:35,170 - ERROR - Username is None
+2024-03-18 18:20:35,452 - ERROR - Username is None
+2024-03-18 18:20:35,715 - ERROR - Username is None
+2024-03-18 18:20:35,990 - ERROR - Username is None
+2024-03-18 18:20:36,264 - ERROR - Username is None
+2024-03-18 18:20:36,544 - ERROR - Username is None
+2024-03-18 18:20:36,811 - ERROR - Username is None
+2024-03-18 18:20:37,080 - ERROR - Username is None
+2024-03-18 18:25:25,629 - WARNING - Final dataframe saved to JSON file: pfsense_final_df.json
+2024-03-18 18:25:26,518 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_phpbb_phpbb.json
+2024-03-18 18:25:26,522 - WARNING - repoUrl: https://github.com/phpbb/phpbb
+2024-03-18 18:25:34,944 - WARNING - Cloned repository to: phpbb/phpbb
+2024-03-18 18:26:29,002 - WARNING - Final dataframe saved to JSON file: phpbb_final_df.json
+2024-03-18 18:26:29,873 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_pimcore_pimcore.json
+2024-03-18 18:26:29,879 - WARNING - repoUrl: https://github.com/pimcore/pimcore
+2024-03-18 18:26:55,147 - WARNING - Cloned repository to: pimcore/pimcore
+2024-03-18 18:31:21,832 - ERROR - Username is None
+2024-03-18 18:31:22,097 - ERROR - Username is None
+2024-03-18 18:31:22,378 - ERROR - Username is None
+2024-03-18 18:31:22,650 - ERROR - Username is None
+2024-03-18 18:31:22,915 - ERROR - Username is None
+2024-03-18 18:31:23,751 - ERROR - Username is None
+2024-03-18 18:31:25,758 - ERROR - Username is None
+2024-03-18 18:31:27,548 - ERROR - Username is None
+2024-03-18 18:31:31,321 - ERROR - Username is None
+2024-03-18 18:31:31,602 - ERROR - Username is None
+2024-03-18 18:31:43,129 - ERROR - Username is None
+2024-03-18 18:31:47,005 - ERROR - Username is None
+2024-03-18 18:31:47,293 - ERROR - Username is None
+2024-03-18 18:31:48,434 - ERROR - Username is None
+2024-03-18 18:31:48,985 - ERROR - Username is None
+2024-03-18 18:32:02,469 - ERROR - Username is None
+2024-03-18 18:32:03,013 - ERROR - Username is None
+2024-03-18 18:32:03,270 - ERROR - Username is None
+2024-03-18 18:32:07,568 - ERROR - Username is None
+2024-03-18 18:32:09,250 - ERROR - Username is None
+2024-03-18 18:32:10,969 - ERROR - Username is None
+2024-03-18 18:32:12,952 - ERROR - Username is None
+2024-03-18 18:32:16,496 - ERROR - Username is None
+2024-03-18 18:32:17,328 - ERROR - Username is None
+2024-03-18 18:32:20,516 - ERROR - Username is None
+2024-03-18 18:32:21,082 - ERROR - Username is None
+2024-03-18 18:32:22,482 - ERROR - Username is None
+2024-03-18 18:32:25,341 - ERROR - Username is None
+2024-03-18 18:32:26,492 - ERROR - Username is None
+2024-03-18 18:32:27,019 - ERROR - Username is None
+2024-03-18 18:32:29,392 - ERROR - Username is None
+2024-03-18 18:32:29,954 - ERROR - Username is None
+2024-03-18 18:32:30,218 - ERROR - Username is None
+2024-03-18 18:32:30,768 - ERROR - Username is None
+2024-03-18 18:32:31,674 - ERROR - Username is None
+2024-03-18 18:32:34,299 - ERROR - Username is None
+2024-03-18 18:32:37,589 - ERROR - Username is None
+2024-03-18 18:32:37,850 - ERROR - Username is None
+2024-03-18 18:32:41,875 - ERROR - Username is None
+2024-03-18 18:32:42,145 - ERROR - Username is None
+2024-03-18 18:32:43,579 - ERROR - Username is None
+2024-03-18 18:32:44,429 - ERROR - Username is None
+2024-03-18 18:32:44,706 - ERROR - Username is None
+2024-03-18 18:32:45,542 - ERROR - Username is None
+2024-03-18 18:32:45,810 - ERROR - Username is None
+2024-03-18 18:32:46,098 - ERROR - Username is None
+2024-03-18 18:32:46,647 - ERROR - Username is None
+2024-03-18 18:32:49,751 - ERROR - Username is None
+2024-03-18 18:32:50,300 - ERROR - Username is None
+2024-03-18 18:32:50,565 - ERROR - Username is None
+2024-03-18 18:32:50,842 - ERROR - Username is None
+2024-03-18 18:32:53,167 - ERROR - Username is None
+2024-03-18 18:32:54,006 - ERROR - Username is None
+2024-03-18 18:32:55,444 - ERROR - Username is None
+2024-03-18 18:32:56,042 - ERROR - Username is None
+2024-03-18 18:32:56,578 - ERROR - Username is None
+2024-03-18 18:32:57,549 - ERROR - Username is None
+2024-03-18 18:32:58,120 - ERROR - Username is None
+2024-03-18 18:32:59,604 - ERROR - Username is None
+2024-03-18 18:33:00,738 - ERROR - Username is None
+2024-03-18 18:33:01,015 - ERROR - Username is None
+2024-03-18 18:33:01,291 - ERROR - Username is None
+2024-03-18 18:33:01,557 - ERROR - Username is None
+2024-03-18 18:33:02,728 - ERROR - Username is None
+2024-03-18 18:33:03,006 - ERROR - Username is None
+2024-03-18 18:33:03,572 - ERROR - Username is None
+2024-03-18 18:33:04,440 - ERROR - Username is None
+2024-03-18 18:33:05,309 - ERROR - Username is None
+2024-03-18 18:33:05,595 - ERROR - Username is None
+2024-03-18 18:33:06,455 - ERROR - Username is None
+2024-03-18 18:33:07,585 - ERROR - Username is None
+2024-03-18 18:33:08,130 - ERROR - Username is None
+2024-03-18 18:33:08,945 - ERROR - Username is None
+2024-03-18 18:33:09,225 - ERROR - Username is None
+2024-03-18 18:33:09,781 - ERROR - Username is None
+2024-03-18 18:33:11,483 - ERROR - Username is None
+2024-03-18 18:33:13,540 - ERROR - Username is None
+2024-03-18 18:33:15,241 - ERROR - Username is None
+2024-03-18 18:33:16,111 - ERROR - Username is None
+2024-03-18 18:33:16,659 - ERROR - Username is None
+2024-03-18 18:33:17,826 - ERROR - Username is None
+2024-03-18 18:33:18,678 - ERROR - Username is None
+2024-03-18 18:33:19,572 - ERROR - Username is None
+2024-03-18 18:33:19,855 - ERROR - Username is None
+2024-03-18 18:33:20,135 - ERROR - Username is None
+2024-03-18 18:33:22,487 - ERROR - Username is None
+2024-03-18 18:33:23,042 - ERROR - Username is None
+2024-03-18 18:33:23,299 - ERROR - Username is None
+2024-03-18 18:33:23,571 - ERROR - Username is None
+2024-03-18 18:33:24,120 - ERROR - Username is None
+2024-03-18 18:33:24,390 - ERROR - Username is None
+2024-03-18 18:33:24,950 - ERROR - Username is None
+2024-03-18 18:33:25,212 - ERROR - Username is None
+2024-03-18 18:33:26,993 - ERROR - Username is None
+2024-03-18 18:33:27,259 - ERROR - Username is None
+2024-03-18 18:33:27,814 - ERROR - Username is None
+2024-03-18 18:33:28,420 - ERROR - Username is None
+2024-03-18 18:33:28,983 - ERROR - Username is None
+2024-03-18 18:33:29,290 - ERROR - Username is None
+2024-03-18 18:33:30,758 - ERROR - Username is None
+2024-03-18 18:33:31,885 - ERROR - Username is None
+2024-03-18 18:33:32,447 - ERROR - Username is None
+2024-03-18 18:33:33,019 - ERROR - Username is None
+2024-03-18 18:33:33,852 - ERROR - Username is None
+2024-03-18 18:33:34,124 - ERROR - Username is None
+2024-03-18 18:33:34,665 - ERROR - Username is None
+2024-03-18 18:33:36,063 - ERROR - Username is None
+2024-03-18 18:33:37,200 - ERROR - Username is None
+2024-03-18 18:33:38,328 - ERROR - Username is None
+2024-03-18 18:33:38,903 - ERROR - Username is None
+2024-03-18 18:33:40,040 - ERROR - Username is None
+2024-03-18 18:33:40,889 - ERROR - Username is None
+2024-03-18 18:33:41,156 - ERROR - Username is None
+2024-03-18 18:33:41,419 - ERROR - Username is None
+2024-03-18 18:33:42,247 - ERROR - Username is None
+2024-03-18 18:33:43,976 - ERROR - Username is None
+2024-03-18 18:33:44,259 - ERROR - Username is None
+2024-03-18 18:33:44,534 - ERROR - Username is None
+2024-03-18 18:33:44,805 - ERROR - Username is None
+2024-03-18 18:33:45,999 - ERROR - Username is None
+2024-03-18 18:33:46,262 - ERROR - Username is None
+2024-03-18 18:33:47,083 - ERROR - Username is None
+2024-03-18 18:33:48,480 - ERROR - Username is None
+2024-03-18 18:33:49,931 - ERROR - Username is None
+2024-03-18 18:33:50,779 - ERROR - Username is None
+2024-03-18 18:33:51,929 - ERROR - Username is None
+2024-03-18 18:33:52,487 - ERROR - Username is None
+2024-03-18 18:33:52,730 - ERROR - Username is None
+2024-03-18 18:33:53,298 - ERROR - Username is None
+2024-03-18 18:33:53,572 - ERROR - Username is None
+2024-03-18 18:33:55,291 - ERROR - Username is None
+2024-03-18 18:33:55,855 - ERROR - Username is None
+2024-03-18 18:33:56,135 - ERROR - Username is None
+2024-03-18 18:33:56,986 - ERROR - Username is None
+2024-03-18 18:33:57,545 - ERROR - Username is None
+2024-03-18 18:33:57,824 - ERROR - Username is None
+2024-03-18 18:33:58,662 - ERROR - Username is None
+2024-03-18 18:33:59,222 - ERROR - Username is None
+2024-03-18 18:33:59,776 - ERROR - Username is None
+2024-03-18 18:34:00,908 - ERROR - Username is None
+2024-03-18 18:34:02,095 - ERROR - Username is None
+2024-03-18 18:34:04,460 - ERROR - Username is None
+2024-03-18 18:34:04,729 - ERROR - Username is None
+2024-03-18 18:34:07,101 - ERROR - Username is None
+2024-03-18 18:34:08,888 - ERROR - Username is None
+2024-03-18 18:34:09,163 - ERROR - Username is None
+2024-03-18 18:34:10,028 - ERROR - Username is None
+2024-03-18 18:34:10,601 - ERROR - Username is None
+2024-03-18 18:34:11,742 - ERROR - Username is None
+2024-03-18 18:34:12,328 - ERROR - Username is None
+2024-03-18 18:34:12,583 - ERROR - Username is None
+2024-03-18 18:34:13,434 - ERROR - Username is None
+2024-03-18 18:34:16,057 - ERROR - Username is None
+2024-03-18 18:34:16,608 - ERROR - Username is None
+2024-03-18 18:34:16,854 - ERROR - Username is None
+2024-03-18 18:34:17,137 - ERROR - Username is None
+2024-03-18 18:34:17,399 - ERROR - Username is None
+2024-03-18 18:34:19,699 - ERROR - Username is None
+2024-03-18 18:34:20,251 - ERROR - Username is None
+2024-03-18 18:34:22,287 - ERROR - Username is None
+2024-03-18 18:34:22,838 - ERROR - Username is None
+2024-03-18 18:34:23,679 - ERROR - Username is None
+2024-03-18 18:34:23,941 - ERROR - Username is None
+2024-03-18 18:34:24,221 - ERROR - Username is None
+2024-03-18 18:34:24,494 - ERROR - Username is None
+2024-03-18 18:34:24,765 - ERROR - Username is None
+2024-03-18 18:34:25,042 - ERROR - Username is None
+2024-03-18 18:34:25,869 - ERROR - Username is None
+2024-03-18 18:34:26,134 - ERROR - Username is None
+2024-03-18 18:34:26,746 - ERROR - Username is None
+2024-03-18 18:34:27,020 - ERROR - Username is None
+2024-03-18 18:34:28,307 - ERROR - Username is None
+2024-03-18 18:34:29,128 - ERROR - Username is None
+2024-03-18 18:34:29,416 - ERROR - Username is None
+2024-03-18 18:34:29,701 - ERROR - Username is None
+2024-03-18 18:34:30,260 - ERROR - Username is None
+2024-03-18 18:34:31,389 - ERROR - Username is None
+2024-03-18 18:34:31,968 - ERROR - Username is None
+2024-03-18 18:34:32,535 - ERROR - Username is None
+2024-03-18 18:34:33,084 - ERROR - Username is None
+2024-03-18 18:34:33,663 - ERROR - Username is None
+2024-03-18 18:34:34,253 - ERROR - Username is None
+2024-03-18 18:34:34,521 - ERROR - Username is None
+2024-03-18 18:34:36,558 - ERROR - Username is None
+2024-03-18 18:34:36,847 - ERROR - Username is None
+2024-03-18 18:34:37,112 - ERROR - Username is None
+2024-03-18 18:34:37,380 - ERROR - Username is None
+2024-03-18 18:34:37,963 - ERROR - Username is None
+2024-03-18 19:02:28,794 - ERROR - Timeout occurred while processing commit fa8298c6caabc3496d17a3b25107d4ad1e10bc9d
+2024-03-18 19:40:03,532 - WARNING - Final dataframe saved to JSON file: pimcore_final_df.json
+2024-03-18 19:40:04,392 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_Piwigo_Piwigo.json
+2024-03-18 19:40:04,397 - WARNING - repoUrl: https://github.com/Piwigo/Piwigo
+2024-03-18 19:40:12,104 - WARNING - Cloned repository to: Piwigo/Piwigo
+2024-03-18 19:40:52,110 - ERROR - Username is None
+2024-03-18 19:40:54,710 - ERROR - Username is None
+2024-03-18 19:40:54,976 - ERROR - Username is None
+2024-03-18 19:40:55,239 - ERROR - Username is None
+2024-03-18 19:40:56,218 - ERROR - Username is None
+2024-03-18 19:40:56,465 - ERROR - Username is None
+2024-03-18 19:40:56,716 - ERROR - Username is None
+2024-03-18 19:40:57,858 - ERROR - Username is None
+2024-03-18 19:40:58,995 - ERROR - Username is None
+2024-03-18 19:40:59,280 - ERROR - Username is None
+2024-03-18 19:40:59,549 - ERROR - Username is None
+2024-03-18 19:41:02,066 - ERROR - Username is None
+2024-03-18 19:41:02,616 - ERROR - Username is None
+2024-03-18 19:41:04,047 - ERROR - Username is None
+2024-03-18 19:41:06,070 - ERROR - Username is None
+2024-03-18 19:41:06,326 - ERROR - Username is None
+2024-03-18 19:41:06,603 - ERROR - Username is None
+2024-03-18 19:41:07,946 - ERROR - Username is None
+2024-03-18 19:41:10,357 - ERROR - Username is None
+2024-03-18 19:41:10,612 - ERROR - Username is None
+2024-03-18 19:41:11,174 - ERROR - Username is None
+2024-03-18 19:41:13,781 - ERROR - Username is None
+2024-03-18 19:41:14,320 - ERROR - Username is None
+2024-03-18 19:41:14,581 - ERROR - Username is None
+2024-03-18 19:41:19,633 - ERROR - Username is None
+2024-03-18 19:41:20,750 - ERROR - Username is None
+2024-03-18 19:41:21,029 - ERROR - Username is None
+2024-03-18 19:41:21,278 - ERROR - Username is None
+2024-03-18 19:42:18,504 - WARNING - Final dataframe saved to JSON file: Piwigo_final_df.json
+2024-03-18 19:42:19,120 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_pixelfed_pixelfed.json
+2024-03-18 19:42:19,124 - WARNING - repoUrl: https://github.com/pixelfed/pixelfed
+2024-03-18 19:42:24,474 - WARNING - Cloned repository to: pixelfed/pixelfed
+2024-03-18 19:42:33,412 - WARNING - Final dataframe saved to JSON file: pixelfed_final_df.json
+2024-03-18 19:42:34,021 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_PrivateBin_PrivateBin.json
+2024-03-18 19:42:34,025 - WARNING - repoUrl: https://github.com/PrivateBin/PrivateBin
+2024-03-18 19:42:36,759 - WARNING - Cloned repository to: PrivateBin/PrivateBin
+2024-03-18 19:43:34,552 - WARNING - Final dataframe saved to JSON file: PrivateBin_final_df.json
+2024-03-18 19:43:35,062 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_salesagility_SuiteCRM.json
+2024-03-18 19:43:35,066 - WARNING - repoUrl: https://github.com/salesagility/SuiteCRM
+2024-03-18 19:43:46,220 - WARNING - Cloned repository to: salesagility/SuiteCRM
+2024-03-18 19:44:01,743 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_serghey-rodin_vesta.json
+2024-03-18 19:44:01,748 - WARNING - repoUrl: https://github.com/serghey-rodin/vesta
+2024-03-18 19:44:02,448 - INFO - Following Github server redirection from /repos/serghey-rodin/vesta to /repositories/1890900
+2024-03-18 19:44:03,111 - INFO - Following Github server redirection from /repos/serghey-rodin/vesta to /repositories/1890900
+2024-03-18 19:44:07,381 - WARNING - Cloned repository to: serghey-rodin/vesta
+2024-03-18 19:47:06,346 - ERROR - Username is None
+2024-03-18 19:47:06,905 - ERROR - Username is None
+2024-03-18 19:47:07,441 - ERROR - Username is None
+2024-03-18 19:47:10,897 - ERROR - Username is None
+2024-03-18 19:47:14,104 - ERROR - Username is None
+2024-03-18 19:47:16,497 - ERROR - Username is None
+2024-03-18 19:47:16,764 - ERROR - Username is None
+2024-03-18 19:47:18,858 - ERROR - Username is None
+2024-03-18 19:47:22,324 - ERROR - Username is None
+2024-03-18 19:47:22,768 - ERROR - Username is None
+2024-03-18 19:47:23,794 - ERROR - Username is None
+2024-03-18 19:47:34,950 - ERROR - Username is None
+2024-03-18 19:47:43,882 - ERROR - Username is None
+2024-03-18 19:47:44,151 - ERROR - Username is None
+2024-03-18 19:47:49,222 - ERROR - Username is None
+2024-03-18 19:47:52,128 - ERROR - Username is None
+2024-03-18 19:47:59,192 - ERROR - Username is None
+2024-03-18 19:48:00,855 - ERROR - Username is None
+2024-03-18 19:48:06,033 - ERROR - Username is None
+2024-03-18 19:48:11,284 - ERROR - Username is None
+2024-03-18 19:48:16,195 - ERROR - Username is None
+2024-03-18 19:48:16,459 - ERROR - Username is None
+2024-03-18 19:48:18,402 - ERROR - Username is None
+2024-03-18 19:50:50,401 - WARNING - Final dataframe saved to JSON file: vesta_final_df.json
+2024-03-18 19:50:51,028 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_shopware_platform.json
+2024-03-18 19:50:51,033 - WARNING - repoUrl: https://github.com/shopware/platform
+2024-03-18 19:50:51,324 - INFO - Following Github server redirection from /repos/shopware/platform to /repositories/131995661
+2024-03-18 19:50:51,949 - INFO - Following Github server redirection from /repos/shopware/platform to /repositories/131995661
+2024-03-18 19:51:17,802 - WARNING - Cloned repository to: shopware/platform
+2024-03-18 19:53:21,044 - ERROR - Username is None
+2024-03-18 19:53:21,588 - ERROR - Username is None
+2024-03-18 19:53:30,103 - ERROR - Username is None
+2024-03-18 19:53:47,090 - ERROR - Username is None
+2024-03-18 19:53:59,559 - ERROR - Username is None
+2024-03-18 19:54:00,105 - ERROR - Username is None
+2024-03-18 19:54:06,961 - ERROR - Username is None
+2024-03-18 19:54:08,932 - ERROR - Username is None
+2024-03-18 20:09:30,408 - ERROR - Timeout occurred while processing commit 8dda7e3dc77232489ab1046744bdac3afff9c827
+2024-03-18 20:16:24,330 - WARNING - Final dataframe saved to JSON file: platform_final_df.json
+2024-03-18 20:16:25,675 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_sulu_sulu.json
+2024-03-18 20:16:25,679 - WARNING - repoUrl: https://github.com/sulu/sulu
+2024-03-18 20:16:39,306 - WARNING - Cloned repository to: sulu/sulu
+2024-03-18 20:17:00,331 - ERROR - Username is None
+2024-03-18 20:17:05,216 - ERROR - Username is None
+2024-03-18 20:17:05,492 - ERROR - Username is None
+2024-03-18 20:17:06,358 - ERROR - Username is None
+2024-03-18 20:17:07,207 - ERROR - Username is None
+2024-03-18 20:17:08,966 - ERROR - Username is None
+2024-03-18 20:17:09,221 - ERROR - Username is None
+2024-03-18 20:17:09,758 - ERROR - Username is None
+2024-03-18 20:17:10,009 - ERROR - Username is None
+2024-03-18 20:17:10,286 - ERROR - Username is None
+2024-03-18 20:17:11,741 - ERROR - Username is None
+2024-03-18 20:23:53,347 - WARNING - Final dataframe saved to JSON file: sulu_final_df.json
+2024-03-18 20:23:54,142 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_Sylius_Sylius.json
+2024-03-18 20:23:54,146 - WARNING - repoUrl: https://github.com/Sylius/Sylius
+2024-03-18 20:24:05,231 - WARNING - Cloned repository to: Sylius/Sylius
+2024-03-18 20:24:35,157 - WARNING - Final dataframe saved to JSON file: Sylius_final_df.json
+2024-03-18 20:24:36,144 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_uvdesk_community-skeleton.json
+2024-03-18 20:24:36,148 - WARNING - repoUrl: https://github.com/uvdesk/community-skeleton
+2024-03-18 20:24:40,316 - WARNING - Cloned repository to: uvdesk/community-skeleton
+2024-03-18 20:24:42,482 - ERROR - Username is None
+2024-03-18 20:24:42,738 - ERROR - Username is None
+2024-03-18 20:24:43,341 - ERROR - Username is None
+2024-03-18 20:24:47,839 - WARNING - Final dataframe saved to JSON file: community-skeleton_final_df.json
+2024-03-18 20:24:48,326 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_vanilla_vanilla.json
+2024-03-18 20:24:48,331 - WARNING - repoUrl: https://github.com/vanilla/vanilla
+2024-03-18 20:25:00,514 - WARNING - Cloned repository to: vanilla/vanilla
+2024-03-18 20:25:09,359 - ERROR - Username is None
+2024-03-18 20:25:34,221 - WARNING - Final dataframe saved to JSON file: vanilla_final_df.json
+2024-03-18 20:25:35,174 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_wallabag_wallabag.json
+2024-03-18 20:25:35,179 - WARNING - repoUrl: https://github.com/wallabag/wallabag
+2024-03-18 20:25:45,147 - WARNING - Cloned repository to: wallabag/wallabag
+2024-03-18 20:26:00,531 - WARNING - Final dataframe saved to JSON file: wallabag_final_df.json
+2024-03-18 20:26:01,110 - WARNING - File path: /home/joris/thesis/json-datasets/github.com_YOURLS_YOURLS.json
+2024-03-18 20:26:01,115 - WARNING - repoUrl: https://github.com/YOURLS/YOURLS
+2024-03-18 20:26:10,453 - WARNING - Cloned repository to: YOURLS/YOURLS

@@ -8,17 +8,28 @@ There are some functions that calculate things related to the execution: Count h
 
 Turns out there were duplicates in tabulated commits version 1-5. So there's a function here that removes em.
 """
-with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/phpAppsWithGithubLinks.json", 'r') as file:
+# with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/phpAppsWithGithubLinks.json", 'r') as file:
+#     appname_ghlink_data = json.load(file)
+with open("jsons/phpAppsWithGithubLinks.json", 'r') as file:
     appname_ghlink_data = json.load(file)
 
-with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/tabulated_commits_v8_nov.json", 'r') as file:
-    tabulated_commits_v8 = json.load(file)
+# with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/tabulated_commits_v8_nov.json", 'r') as file:
+#     tabulated_commits_v8 = json.load(file)
 
-with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/application_selection/cve_transformation_process/before_cvv_cves.json", 'r') as file:
-    before_vcc_cves = json.load(file)
+# with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/application_selection/cve_transformation_process/before_cvv_cves.json", 'r') as file:
+#     before_vcc_cves = json.load(file)
 
-with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/joris_commits_filtered_v4.json", 'r') as file:
+# with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/joris_commits_filtered_v4.json", 'r') as file:
+#     joris_commits_filtered_v4 = json.load(file)
+
+with open("jsons/tabulated_commits_v9_nov.json", 'r') as file:
+    tabulated_commits_v9 = json.load(file)
+with open("jsons/joris_commits_filtered_v4.json", 'r') as file:
     joris_commits_filtered_v4 = json.load(file)
+with open("jsons/tabulated_commits_v12_nov.json", 'r') as file:
+    tabulated_commits_v12 = json.load(file)
+with open("jsons/git_metrics_commits.json", 'r') as file:
+    git_metrics_commits = json.load(file)
 
 def search_appname(gh_link, appname_ghlink_data):
     for entry in appname_ghlink_data:
@@ -96,10 +107,12 @@ def remove_duplicates(tabulated_commits, save_path):
     unique_entries = []
 
     for item in tabulated_commits:
-        sha = item['sha']
+        sha = item['commit_sha']
         if sha not in unique_shas:
             unique_shas.add(sha)
             unique_entries.append(item)
+        else:
+            print(sha)
     with open(save_path, 'w') as file:
         json.dump(unique_entries, file, indent=4)
     return unique_entries
@@ -126,28 +139,16 @@ def count_commits(tabulated_commits, appnames = []):
         print("The amount of vulnerable commits are ", count_vulnerable)
         print("The amount of non-vulnerable commits are ", count_non_vulnerable) 
 
-count_no_php = 0
-count_err = 0
-for com in tabulated_commits_v8:
-    if "average_loc" in com and com["average_loc"] == -1:
-        count_no_php += 1
-    if com["php_metrics_extracted"] == -1:
-        count_err += 1
+def simple_overview():
+    print("tabulated_commits_v9")
+    count_extraction(tabulated_commits_v9, 1)
+    count_extraction(tabulated_commits_v9, -1)
+    print("In total there are ", len(tabulated_commits_v9), " commits")
+    print("Joris commits filtered:")
+    count_extraction(joris_commits_filtered_v4, 1)
+    count_extraction(joris_commits_filtered_v4, -1)    
+    print("In total there are ", len(joris_commits_filtered_v4), " commits") 
 
-print(len(tabulated_commits_v8))
-print(count_no_php)
-print(count_err)
 
-# add_appname_delete_ov(tabulated_commits_v1)
-# count_extraction(tabulated_commits_v8, 1)
-# count_extraction(tabulated_commits_v8, -1)
-# appnames = ["Tuleap", "Piwigo", "Shopware"]
-# count_extraction_apps(tabulated_commits_v7, appnames, 1)
+print(len(tabulated_commits_v12))
 
-# remove_duplicates(tabulated_commits_v6, 'jsons/tabulated_commits_v6_nov.json')
-# count_extraction(tabulated_commits_v6, 1)
-# count_extraction(tabulated_commits_v6, -1)
-# print("In total there are ", len(tabulated_commits_v6), " commits")
-        
-#count_commits(tabulated_commits_v7)
-        

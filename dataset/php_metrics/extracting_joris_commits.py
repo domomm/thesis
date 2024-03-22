@@ -2,37 +2,47 @@ import os
 import json
 from extra_scripts import search_appname
 
-with open("/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/phpAppsWithGithubLinks.json", 'r') as file:
+with open("jsons/phpAppsWithGithubLinks.json", 'r') as file:
     appname_ghlink_data = json.load(file)
 # Function to process a single JSON file
-def process_json_file(file_path):
+def process_json_file(file_path, for_git_metrics=False):
     with open(file_path, 'r') as f:
-        data = json.load(f)
-        repo_url = data.get("singleUrl", "")
-        commits = data.get("commits", [])
-        appname = search_appname(repo_url, appname_ghlink_data)
-        
-        # Append URL to each commit
-        for commit in commits:
-            commit["repo"] = repo_url
-            if appname:
-                commit["appname"] = appname
-            else:
-                raise Exception("ERROR: Appname not found")
+        commits = []
+        if not for_git_metrics:
+            data = json.load(f)
+            repo_url = data.get("singleUrl", "")
+            commits = data.get("commits", [])
+            appname = search_appname(repo_url, appname_ghlink_data)
             
-        return commits
+            # Append URL to each commit
+            for commit in commits:
+                commit["repo"] = repo_url
+                if appname:
+                    commit["appname"] = appname
+                else:
+                    raise Exception("ERROR: Appname not found")
+        else:
+            commits = []
+            for line in f:
+                entry = json.loads(line)
+                commits.append(entry)
+        if commits:
+            return commits
+        else:
+            raise Exception("EMPTY COMMITS")
+        
 
 # Function to process all JSON files in a directory
-def process_json_files(directory):
+def process_json_files(directory, for_git_metrics=False):
     all_commits = []
     for filename in os.listdir(directory):
         if filename.endswith('.json'):
             file_path = os.path.join(directory, filename)
-            commits = process_json_file(file_path)
+            commits = process_json_file(file_path, for_git_metrics=for_git_metrics)
             all_commits.extend(commits)
     return all_commits
 
-def json_file_processing_wrapper():
+def json_file_processing_wrapper_random_commits():
     print("Processing json files...")
     json_directory = '/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/joris_jsons/random-commits_150324update'
     all_commits = process_json_files(json_directory)
@@ -118,5 +128,16 @@ def adding_php_metr_extracted():
     with open('/home/deck/Documents/masterGT/mt_git/thesis/dataset/php_metrics/jsons/joris_commits_filtered_v3.json', 'w') as file:
         json.dump(joris_commits_filtered, file, indent=4)
 
-adding_php_metr_extracted()
+def json_file_processing_wrapper_git_metr_commits():
+    print("Processing json files...")
+    json_directory = 'joris_jsons/ProccessFeatures_allCommits'
+    all_commits = process_json_files(json_directory, for_git_metrics=True)
+    print("Processing is done, now saving...")
+
+    output_file = 'jsons/git_metrics_commits.json'
+    with open(output_file, 'w') as f:
+        json.dump(all_commits, f, indent=4)
+    print("Done")
+
+json_file_processing_wrapper_git_metr_commits()
 

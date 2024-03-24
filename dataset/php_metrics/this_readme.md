@@ -1,6 +1,7 @@
 ## To do
 - Get Joris git metr and concat
-    - Check v5 and below to make sure the duplicates are actual duplicates
+    - For these duplicates maybe check with vcc_results_all_v1?
+    - Check v5 and below to make sure the duplicates are actual duplicates. Basically need to print out duplicates whose label are diff. Also print in another place those who are actually the same. Make use of v6.
     - has concatted but there are duplicates, these duplicates should be compared to v10, take the one that has the same is_vulnerable attr. If is none or sumn, then print it out, check it manually.
         - One problem is there are some whose neutrality and label is weong
         - Another is that only the neutrality is wrong
@@ -29,7 +30,8 @@
 9. Cleaned (see clean_concat_data.py)
 10. Concatted with joris_filtered_v5
 11. Merged with the git metrics commits
-12. Removed some duplicates (NOT DONE, the duplicates have diff labels lmao)
+12. Removed some duplicates, but some of the (former) duplicates labels and neutrality is wrong
+13. Fixed the wrong former duplicates neutrality and label, also removed ambigous labels: Some sha are both fixing commit and vcc, these are removed.
 
 ## joris_commits(_filtered)
 Joris mined extra random commits for non-vulnerable commits. It's from joris_jsons/random-commits... In the folder there are multiple jsons, one for each app. It had to be concat. joris_commits.json is the result of the first concat, resulting in 4410 commits in total (this includes commits that are already from Yeska). 

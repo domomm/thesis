@@ -89,7 +89,8 @@ def merge_git_php_commits(git_metrics_file_path, php_metrics_file_path, output_f
     
     with open(output_file_path, 'w') as file:
         json.dump(git_metrics_commits, file, indent=4)
-    
+
+
 # clean_data("jsons/joris_commits_filtered_v4.json", "jsons/joris_commits_filtered_v5.json", vuln_to_bool=False)
 # concat("jsons/joris_commits_filtered_v5.json", "jsons/tabulated_commits_v9_nov.json", "jsons/tabulated_commits_v10_nov.json")
-merge_git_php_commits("jsons/git_metrics_commits.json", "jsons/tabulated_commits_v10_nov.json", "jsons/tabulated_commits_v11_nov.json")
+# merge_git_php_commits("jsons/git_metrics_commits.json", "jsons/tabulated_commits_v10_nov.json", "jsons/tabulated_commits_v11_nov.json")

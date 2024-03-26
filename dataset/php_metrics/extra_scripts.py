@@ -220,12 +220,13 @@ def clean_former_duplicates(data):
 # print(find_sha_and_label("88dd6abbf3f519897f2f6280e95c9eec9123a4ae", tabulated_commits_v9))
 # print(find_sha_and_label("103bdd71288d1b3e18d8d60a0e9fb9c9b5e41c28", tabulated_commits_v9))
 # print(len(tabulated_commits_v12))
-count = 0
-for com in tabulated_commits_v13:
-    if com["is_vulnerable"]:
-        count += 1
-print(count)
+
 # clean_former_duplicates(tabulated_commits_v12)
+vccs_nophp = []
+for com in tabulated_commits_v13:
+    if com["is_vulnerable"] and not com["oop_php_files_exist"]:
+        vccs_nophp.append(com["commit_sha"])
+print(vccs_nophp)
 
 # print(len(tabulated_commits_v12))
 # print(len(tabulated_commits_v13))
